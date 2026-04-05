@@ -543,6 +543,11 @@
         "Name": "%d% %tt% Dark Mark",
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
+      "ExecuteSkillOnPreTurn": {
+        "Tag": "タマセッション",
+        "Name": "タマセッション",
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
       "Motivation": {
         "Tag": "Motivation",
         "Name": "%d% %tt% Motivation",
@@ -1238,10 +1243,28 @@
         "Name": "%d% %tt% Shchi",
         "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
       },
+      "Steak": {
+        "Tag": "Steak",
+        "Name": "%d% %tt% Steak",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
+      "Gelato": {
+        "Tag": "Gelato",
+        "Name": "%d% %tt% Gelato",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
       "Mocktail": {
         "Tag": "Mocktail",
         "Name": "%d% %tt% Mocktail",
         "Desc": "At start of turn%nl%Removes all debuffs on %tt%%nl%Recovers %rangep% MAX DP when debuff removal effect is triggered%nl%%span style=info%※ Effect is dispelled when debuffs are removed%nl%※ Does not affect unremovable debuffs%endspan%"
+      }
+    },
+    "RoleAbility": {
+      "RoleAbility.STezuka03.1": {
+        "Icon": "ChangeOgreNormal",
+        "Name": "鬼神状態",
+        "Desc": "鬼神状態になった時 以下の効果が発生する\n・オーバードライブゲージを15%上昇\n・自身に付与されている全てのデバフを解除する\n・自身のDPを復活し 全回復する\n鬼神状態中 常時以下の効果が発生する\n・スキルの消費SPが0になる\n・連撃数アップ(大ダメージ/3回)[単独発動]：スキル攻撃時に25%の追加ダメージが3Hit発生\n・心眼[単独発動]：スキル攻撃時に弱点をついたとき、与ダメージが12%増加\n鬼神状態が解除された時 以下の効果が発生する\n・反動で1ターン行動できなくなる",
+        "Sub": "※鬼神状態中、再度鬼神状態になることはできない\n※単独発動はアクティブスキル由来の同種のバフと同時発動しない\n※この効果による連撃数アップと心眼よりもアクティブスキル由来の他の同種バフの方が効果値が高い場合は、そちらが優先される\n※消費SPが0になる効果はSP全消費スキルには適用されない"
       }
     },
     "MissionType": {
@@ -2144,6 +2167,11 @@
         "Name": "%d% %tt% Dark Mark",
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
+      "ExecuteSkillOnPreTurn": {
+        "Tag": "タマセッション",
+        "Name": "タマセッション",
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
       "Motivation": {
         "Tag": "Motivation",
         "Name": "%d% %tt% Motivation",
@@ -2839,10 +2867,28 @@
         "Name": "%d% %tt% Shchi",
         "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
       },
+      "Steak": {
+        "Tag": "Steak",
+        "Name": "%d% %tt% Steak",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
+      "Gelato": {
+        "Tag": "Gelato",
+        "Name": "%d% %tt% Gelato",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
       "Mocktail": {
         "Tag": "Mocktail",
         "Name": "%d% %tt% Mocktail",
         "Desc": "At start of turn%nl%Removes all debuffs on %tt%%nl%Recovers %rangep% MAX DP when debuff removal effect is triggered%nl%%span style=info%※ Effect is dispelled when debuffs are removed%nl%※ Does not affect unremovable debuffs%endspan%"
+      }
+    },
+    "RoleAbility": {
+      "RoleAbility.STezuka03.1": {
+        "Icon": "ChangeOgreNormal",
+        "Name": "鬼神状態",
+        "Desc": "鬼神状態になった時 以下の効果が発生する\n・オーバードライブゲージを15%上昇\n・自身に付与されている全てのデバフを解除する\n・自身のDPを復活し 全回復する\n鬼神状態中 常時以下の効果が発生する\n・スキルの消費SPが0になる\n・連撃数アップ(大ダメージ/3回)[単独発動]：スキル攻撃時に25%の追加ダメージが3Hit発生\n・心眼[単独発動]：スキル攻撃時に弱点をついたとき、与ダメージが12%増加\n鬼神状態が解除された時 以下の効果が発生する\n・反動で1ターン行動できなくなる",
+        "Sub": "※鬼神状態中、再度鬼神状態になることはできない\n※単独発動はアクティブスキル由来の同種のバフと同時発動しない\n※この効果による連撃数アップと心眼よりもアクティブスキル由来の他の同種バフの方が効果値が高い場合は、そちらが優先される\n※消費SPが0になる効果はSP全消費スキルには適用されない"
       }
     },
     "MissionType": {
@@ -3759,6 +3805,11 @@
         "Name": "%d%%tt%暗之印记",
         "Desc": "战斗开始时，根据友方暗属性角色数量提供暗之印记等级%nl%根据印记等级发动效果%nl%%nl%1级：技能攻击上升%rangep%%nl%2级：受到伤害下降10%pc%%nl%3级：破坏率获取量上升10%pc%%nl%4级：暴击率上升30%pc%%nl%5级：暴击伤害上升30%pc%%nl%6级：回合开始时，若处于前锋，SP+1"
       },
+      "ExecuteSkillOnPreTurn": {
+        "Tag": "タマセッション",
+        "Name": "タマセッション",
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
       "Motivation": {
         "Tag": "Motivation",
         "Name": "%d%%tt%干劲",
@@ -4454,10 +4505,28 @@
         "Name": "%d%%tt%酸白菜汤",
         "Desc": "技能攻击上升%rangep%%params%%nl%回复等于造成伤害%v1pc%的DP"
       },
+      "Steak": {
+        "Tag": "Steak",
+        "Name": "%d% %tt% Steak",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
+      "Gelato": {
+        "Tag": "Gelato",
+        "Name": "%d% %tt% Gelato",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
       "Mocktail": {
         "Tag": "Mocktail",
         "Name": "%d%%tt%无酒精鸡尾酒",
         "Desc": "回合开始时，移除%tt%所有减益效果%nl%触发效果时回复最大DP的%rangep%%nl%%span style=info%※移除减益效果后失去这个状态%nl%※对无法移除的效果无效%endspan%"
+      }
+    },
+    "RoleAbility": {
+      "RoleAbility.STezuka03.1": {
+        "Icon": "ChangeOgreNormal",
+        "Name": "鬼神状態",
+        "Desc": "鬼神状態になった時 以下の効果が発生する\n・オーバードライブゲージを15%上昇\n・自身に付与されている全てのデバフを解除する\n・自身のDPを復活し 全回復する\n鬼神状態中 常時以下の効果が発生する\n・スキルの消費SPが0になる\n・連撃数アップ(大ダメージ/3回)[単独発動]：スキル攻撃時に25%の追加ダメージが3Hit発生\n・心眼[単独発動]：スキル攻撃時に弱点をついたとき、与ダメージが12%増加\n鬼神状態が解除された時 以下の効果が発生する\n・反動で1ターン行動できなくなる",
+        "Sub": "※鬼神状態中、再度鬼神状態になることはできない\n※単独発動はアクティブスキル由来の同種のバフと同時発動しない\n※この効果による連撃数アップと心眼よりもアクティブスキル由来の他の同種バフの方が効果値が高い場合は、そちらが優先される\n※消費SPが0になる効果はSP全消費スキルには適用されない"
       }
     },
     "MissionType": {
@@ -5358,6 +5427,11 @@
         "Name": "%d% %tt% Dark Mark",
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
+      "ExecuteSkillOnPreTurn": {
+        "Tag": "タマセッション",
+        "Name": "タマセッション",
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
       "Motivation": {
         "Tag": "Motivation",
         "Name": "%d% %tt% Motivation",
@@ -6053,10 +6127,28 @@
         "Name": "%d% %tt% Shchi",
         "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
       },
+      "Steak": {
+        "Tag": "Steak",
+        "Name": "%d% %tt% Steak",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
+      "Gelato": {
+        "Tag": "Gelato",
+        "Name": "%d% %tt% Gelato",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
       "Mocktail": {
         "Tag": "Mocktail",
         "Name": "%d% %tt% Mocktail",
         "Desc": "At start of turn%nl%Removes all debuffs on %tt%%nl%Recovers %rangep% MAX DP when debuff removal effect is triggered%nl%%span style=info%※ Effect is dispelled when debuffs are removed%nl%※ Does not affect unremovable debuffs%endspan%"
+      }
+    },
+    "RoleAbility": {
+      "RoleAbility.STezuka03.1": {
+        "Icon": "ChangeOgreNormal",
+        "Name": "鬼神状態",
+        "Desc": "鬼神状態になった時 以下の効果が発生する\n・オーバードライブゲージを15%上昇\n・自身に付与されている全てのデバフを解除する\n・自身のDPを復活し 全回復する\n鬼神状態中 常時以下の効果が発生する\n・スキルの消費SPが0になる\n・連撃数アップ(大ダメージ/3回)[単独発動]：スキル攻撃時に25%の追加ダメージが3Hit発生\n・心眼[単独発動]：スキル攻撃時に弱点をついたとき、与ダメージが12%増加\n鬼神状態が解除された時 以下の効果が発生する\n・反動で1ターン行動できなくなる",
+        "Sub": "※鬼神状態中、再度鬼神状態になることはできない\n※単独発動はアクティブスキル由来の同種のバフと同時発動しない\n※この効果による連撃数アップと心眼よりもアクティブスキル由来の他の同種バフの方が効果値が高い場合は、そちらが優先される\n※消費SPが0になる効果はSP全消費スキルには適用されない"
       }
     },
     "MissionType": {
@@ -6959,6 +7051,11 @@
         "Name": "%d% %tt% Dark Mark",
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
+      "ExecuteSkillOnPreTurn": {
+        "Tag": "タマセッション",
+        "Name": "タマセッション",
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
       "Motivation": {
         "Tag": "Motivation",
         "Name": "%d% %tt% Motivation",
@@ -7654,10 +7751,28 @@
         "Name": "%d% %tt% Shchi",
         "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
       },
+      "Steak": {
+        "Tag": "Steak",
+        "Name": "%d% %tt% Steak",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
+      "Gelato": {
+        "Tag": "Gelato",
+        "Name": "%d% %tt% Gelato",
+        "Desc": "Increases damage dealt with skills by %rangep%%params%%nl%Recovers DP by %v1pc% of damage dealt"
+      },
       "Mocktail": {
         "Tag": "Mocktail",
         "Name": "%d% %tt% Mocktail",
         "Desc": "At start of turn%nl%Removes all debuffs on %tt%%nl%Recovers %rangep% MAX DP when debuff removal effect is triggered%nl%%span style=info%※ Effect is dispelled when debuffs are removed%nl%※ Does not affect unremovable debuffs%endspan%"
+      }
+    },
+    "RoleAbility": {
+      "RoleAbility.STezuka03.1": {
+        "Icon": "ChangeOgreNormal",
+        "Name": "鬼神状態",
+        "Desc": "鬼神状態になった時 以下の効果が発生する\n・オーバードライブゲージを15%上昇\n・自身に付与されている全てのデバフを解除する\n・自身のDPを復活し 全回復する\n鬼神状態中 常時以下の効果が発生する\n・スキルの消費SPが0になる\n・連撃数アップ(大ダメージ/3回)[単独発動]：スキル攻撃時に25%の追加ダメージが3Hit発生\n・心眼[単独発動]：スキル攻撃時に弱点をついたとき、与ダメージが12%増加\n鬼神状態が解除された時 以下の効果が発生する\n・反動で1ターン行動できなくなる",
+        "Sub": "※鬼神状態中、再度鬼神状態になることはできない\n※単独発動はアクティブスキル由来の同種のバフと同時発動しない\n※この効果による連撃数アップと心眼よりもアクティブスキル由来の他の同種バフの方が効果値が高い場合は、そちらが優先される\n※消費SPが0になる効果はSP全消費スキルには適用されない"
       }
     },
     "MissionType": {
