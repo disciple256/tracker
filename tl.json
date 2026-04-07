@@ -206,7 +206,7 @@
       "IsDebuffer()": "Debuffer",
       "IsDefender()": "Defender",
       "IsHealer()": "Healer",
-      "IsOverDrive()": "During OverDrive",
+      "IsOverDrive()": "During Overdrive",
       "IsCharging()": "Active Charge",
       "IsEnemyCharge": "Active Charge",
       "EnemyChargeStep": "If Charge Step = %var3%",
@@ -269,7 +269,7 @@
       "CountBC(IsPlayer() &&IsTeam(31A)==1)>=3": "When party has 3+ 31A members",
       "CountBC(IsPlayer() &&IsTeam(31D)==1)>=3": "When party has 3+ 31D members",
       "CountBC(IsPlayer() &&IsTeam(31E)==1)>=3": "When party has 3+ 31E members",
-      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is affliected with Defense Down",
+      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is afflicted with Defense Down",
       "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(22)>0)>0": "When an enemy is afflicted with Fragile",
       "CountBC(IsPlayer() == 1 && IsCharacter(AKanzaki) == 1 && SpecialStatusCountByType(125)>0)>0": "When Shadow Clone is active",
       "CountBC(IsPlayer() == 1 && IsCharacter(SMinase) == 1 && SpecialStatusCountByType(122)>0)>0": "When Dodge is active",
@@ -296,7 +296,7 @@
       "IsBroken()==0": "Active Deflector",
       "IsTerritory(ReviveTerritory)==1": "Active Revival Formation",
       "CountBC(IsPlayer() == 1 && IsCharacter(EAoi) == 1 && MoraleLevel() >= 6)>0": "When Aoi's Morale Lv >= 6",
-      "CountBC(IsPlayer() == 1 && IsCharacter(MKiryu) == 1 && FireMarkLevel()>=4)>=1": "When Miya's Fire Mark Lv >=4",
+      "CountBC(IsPlayer() == 1 && IsCharacter(MKiryu) == 1 && FireMarkLevel()>=4)>=1": "When Miya's Fire Mark Lv >= 4",
       "CountBC(IsDead()==0 && IsPlayer()==0&&SpecialStatusCountByType(172)>0)>0": "When Super Down is active",
       "CountBC(IsPlayer() == 1 && IsCharacter(RKayamori) == 1 && MotivationLevel() == 5)>0": "When Ruka's Motivation Lv = 5"
     },
@@ -431,7 +431,7 @@
       "Turbidity": {
         "Tag": "Turbidity",
         "Name": "%d% %tt% Turbidity",
-        "Desc": "Ramdomizes target when attacking a single target"
+        "Desc": "Randomizes target when attacking a single target"
       },
       "ReviveEShield": {
         "Tag": "EShield Revival",
@@ -509,7 +509,7 @@
         "Desc": "Boosts debuff effects inflicted by self by %rangep%"
       },
       "ArrowCherryBlossoms": {
-        "Tag": "Attack Up & Debuff Boost",
+        "Tag": "ATK Up & Debuff Boost",
         "Name": "%d% %tt% Attack Up & Debuff effect boost",
         "Desc": "Increases Skill ATK by %rangep% %params%%nl%Boosts debuff effects inflicted by self by %v1pc%"
       },
@@ -544,9 +544,9 @@
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "%d% %tt% Tama Session",
+        "Desc": "At start of turn, if there is a broken ally on the field%nl%Execute skill %span style=keyword%Explode!! Bass Solo%endspan%%nl%[%span style=keyword%Explode!! Bass Solo%endspan%: Restores Deflector and recovers allies' DP by 50%pc%]%nl%%span style=info%※ Does not take effect on turn applied%endspan%"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -556,7 +556,7 @@
       "Talisman": {
         "Tag": "Talisman",
         "Name": "%d% %tt% Talisman",
-        "Desc": "%passivecond%:%nl%Afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10 )%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
+        "Desc": "%passivecond%:%nl%Afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10)%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
       },
       "AttackUpOnlyNormal": {
         "Tag": "ATK Up",
@@ -988,6 +988,11 @@
         "Name": "%d% %tt% Over Boost",
         "Desc": "Increases damage dealt by %minp%%nl%Increases DEF by %v1pc%"
       },
+      "AegisChainAttackDown": {
+        "Tag": "Aegis Chain",
+        "Name": "Aegis Chain",
+        "Desc": "Lowers ATK by 10%"
+      },
       "RemoveDebuff": {
         "Tag": "Debuff Removal",
         "Name": "%d% %tt% Debuff Removal",
@@ -1021,7 +1026,7 @@
       "ResistDownOverwrite": {
         "Tag": "Resist Down Overwrite",
         "Name": "%d% %tt% %el%Resist Down Overwrite",
-        "Desc": "Resets %att% %at%%el%resistance"
+        "Desc": "Resets %att% %at%%el%resistance%nl%%span style=info%※ Applied before Resist Up/Down effects%endspan%"
       },
       "MemorySpirit": {
         "Tag": "Status Up",
@@ -1893,7 +1898,7 @@
       "CountBC(IsPlayer() &&IsTeam(31A)==1)>=3": "When party has 3+ 31A members",
       "CountBC(IsPlayer() &&IsTeam(31D)==1)>=3": "When party has 3+ 31D members",
       "CountBC(IsPlayer() &&IsTeam(31E)==1)>=3": "When party has 3+ 31E members",
-      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is affliected with Defense Down",
+      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is afflicted with Defense Down",
       "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(22)>0)>0": "When an enemy is afflicted with Fragile",
       "CountBC(IsPlayer() == 1 && IsCharacter(AKanzaki) == 1 && SpecialStatusCountByType(125)>0)>0": "When Shadow Clone is active",
       "CountBC(IsPlayer() == 1 && IsCharacter(SMinase) == 1 && SpecialStatusCountByType(122)>0)>0": "When Dodge is active",
@@ -2055,7 +2060,7 @@
       "Turbidity": {
         "Tag": "Turbidity",
         "Name": "%d% %tt% Turbidity",
-        "Desc": "Ramdomizes target when attacking a single target"
+        "Desc": "Randomizes target when attacking a single target"
       },
       "ReviveEShield": {
         "Tag": "EShield Revival",
@@ -2133,7 +2138,7 @@
         "Desc": "Boosts debuff effects inflicted by self by %rangep%"
       },
       "ArrowCherryBlossoms": {
-        "Tag": "Attack Up & Debuff Boost",
+        "Tag": "ATK Up & Debuff Boost",
         "Name": "%d% %tt% Attack Up & Debuff effect boost",
         "Desc": "Increases Skill ATK by %rangep% %params%%nl%Boosts debuff effects inflicted by self by %v1pc%"
       },
@@ -2168,9 +2173,9 @@
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
+        "Tag": "Tama Session",
         "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル%span style=keyword%炸裂！！ベース・ソロ%endspan%が発動する%nl%【%span style=keyword%炸裂！！ベース・ソロ%endspan%：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -2180,7 +2185,7 @@
       "Talisman": {
         "Tag": "Talisman",
         "Name": "%d% %tt% Talisman",
-        "Desc": "%passivecond%, afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10 )%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
+        "Desc": "%passivecond%:%nl%afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10)%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
       },
       "AttackUpOnlyNormal": {
         "Tag": "ATK Up",
@@ -2612,6 +2617,11 @@
         "Name": "%d% %tt% Over Boost",
         "Desc": "Increases damage dealt by %minp%%nl%Increases DEF by %v1pc%"
       },
+      "AegisChainAttackDown": {
+        "Tag": "Aegis Chain",
+        "Name": "イージスの鎖",
+        "Desc": "10%攻撃力ダウン"
+      },
       "RemoveDebuff": {
         "Tag": "Debuff Removal",
         "Name": "%d% %tt% Debuff Removal",
@@ -2645,7 +2655,7 @@
       "ResistDownOverwrite": {
         "Tag": "Resist Down Overwrite",
         "Name": "%d% %tt% %el%耐性打ち消し",
-        "Desc": "%att% %at%%el%属性の耐性を消し去る"
+        "Desc": "%att% %at%%el%属性の耐性を消し去る%nl%%span style=info%※ 耐性ダウンや耐性アップが付与されている場合、耐性打ち消し後の値からダウンやアップの効%endspan%"
       },
       "MemorySpirit": {
         "Tag": "Status Up",
@@ -3771,7 +3781,7 @@
         "Desc": "减益效果的强度上升%rangep%"
       },
       "ArrowCherryBlossoms": {
-        "Tag": "Attack Up & Debuff Boost",
+        "Tag": "ATK Up & Debuff Boost",
         "Name": "%d%%tt%樱花箭",
         "Desc": "攻击上升%rangep%%params%%nl%减益效果的强度上升%v1pc%"
       },
@@ -3806,9 +3816,9 @@
         "Desc": "战斗开始时，根据友方暗属性角色数量提供暗之印记等级%nl%根据印记等级发动效果%nl%%nl%1级：技能攻击上升%rangep%%nl%2级：受到伤害下降10%pc%%nl%3级：破坏率获取量上升10%pc%%nl%4级：暴击率上升30%pc%%nl%5级：暴击伤害上升30%pc%%nl%6级：回合开始时，若处于前锋，SP+1"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "%d% %tt% Tama Session",
+        "Desc": "At start of turn, if there is a broken ally on the field%nl%Execute skill %span style=keyword%Explode!! Bass Solo%endspan%%nl%[%span style=keyword%Explode!! Bass Solo%endspan%: Restores Deflector and recovers allies' DP by 50%pc%]%nl%%span style=info%※ Does not take effect on turn applied%endspan%"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -4250,6 +4260,11 @@
         "Name": "%d%%tt%过度增压",
         "Desc": "增加%minp%伤害%nl%增加%v1pc%防御"
       },
+      "AegisChainAttackDown": {
+        "Tag": "Aegis Chain",
+        "Name": "Aegis Chain",
+        "Desc": "攻击下降10%"
+      },
       "RemoveDebuff": {
         "Tag": "Debuff Removal",
         "Name": "%d%%tt%净化减益",
@@ -4283,7 +4298,7 @@
       "ResistDownOverwrite": {
         "Tag": "Resist Down Overwrite",
         "Name": "%d%%tt%%el%抗性移除",
-        "Desc": "移除%att%%at%%el%抗性"
+        "Desc": "移除%att%%at%%el%抗性%nl%%span style=info%※ Applied before Resist Up/Down effects%endspan%"
       },
       "MemorySpirit": {
         "Tag": "Status Up",
@@ -5153,7 +5168,7 @@
       "CountBC(IsPlayer() &&IsTeam(31A)==1)>=3": "When party has 3+ 31A members",
       "CountBC(IsPlayer() &&IsTeam(31D)==1)>=3": "When party has 3+ 31D members",
       "CountBC(IsPlayer() &&IsTeam(31E)==1)>=3": "When party has 3+ 31E members",
-      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is affliected with Defense Down",
+      "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(3)>0)>0": "When an enemy is afflicted with Defense Down",
       "CountBC(IsPlayer()==0&&IsDead()==0&&SpecialStatusCountByType(22)>0)>0": "When an enemy is afflicted with Fragile",
       "CountBC(IsPlayer() == 1 && IsCharacter(AKanzaki) == 1 && SpecialStatusCountByType(125)>0)>0": "When Shadow Clone is active",
       "CountBC(IsPlayer() == 1 && IsCharacter(SMinase) == 1 && SpecialStatusCountByType(122)>0)>0": "When Dodge is active",
@@ -5315,7 +5330,7 @@
       "Turbidity": {
         "Tag": "Turbidity",
         "Name": "%d% %tt% Turbidity",
-        "Desc": "Ramdomizes target when attacking a single target"
+        "Desc": "Randomizes target when attacking a single target"
       },
       "ReviveEShield": {
         "Tag": "EShield Revival",
@@ -5393,7 +5408,7 @@
         "Desc": "Boosts debuff effects inflicted by self by %rangep%"
       },
       "ArrowCherryBlossoms": {
-        "Tag": "Attack Up & Debuff Boost",
+        "Tag": "ATK Up & Debuff Boost",
         "Name": "%d% %tt% Attack Up & Debuff effect boost",
         "Desc": "Increases Skill ATK by %rangep% %params%%nl%Boosts debuff effects inflicted by self by %v1pc%"
       },
@@ -5428,9 +5443,9 @@
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "%d% %tt% Tama Session",
+        "Desc": "At start of turn, if there is a broken ally on the field%nl%Execute skill %span style=keyword%Explode!! Bass Solo%endspan%%nl%[%span style=keyword%Explode!! Bass Solo%endspan%: Restores Deflector and recovers allies' DP by 50%pc%]%nl%%span style=info%※ Does not take effect on turn applied%endspan%"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -5440,7 +5455,7 @@
       "Talisman": {
         "Tag": "Talisman",
         "Name": "%d% %tt% Talisman",
-        "Desc": "%passivecond%, afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10 )%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
+        "Desc": "%passivecond%:%nl%afflicts targets with %mrange_alt% level%mrange_sp_alt% of Talisman debuff%nl%%nl%Each Talisman level decreases enemy stats by 10 (MAX Lv: 10)%nl%Talisman level increases by 1 when afflicted target is attacked%nl%Level is reset when enemy turn ends%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
       },
       "AttackUpOnlyNormal": {
         "Tag": "ATK Up",
@@ -5872,6 +5887,11 @@
         "Name": "%d% %tt% Over Boost",
         "Desc": "Increases damage dealt by %minp%%nl%Increases DEF by %v1pc%"
       },
+      "AegisChainAttackDown": {
+        "Tag": "Aegis Chain",
+        "Name": "神盾之鎖",
+        "Desc": "攻擊力降低10%"
+      },
       "RemoveDebuff": {
         "Tag": "Debuff Removal",
         "Name": "%d% %tt% Debuff Removal",
@@ -5904,8 +5924,8 @@
       },
       "ResistDownOverwrite": {
         "Tag": "Resist Down Overwrite",
-        "Name": "%d% %tt% %el% ",
-        "Desc": "%att% %at%%el% 耐性無效化"
+        "Name": "%d% %tt% %el% 耐性無效化",
+        "Desc": "%att% %at%%el% 耐性無效化%nl%%span style=info%※ Applied before Resist Up/Down effects%endspan%"
       },
       "MemorySpirit": {
         "Tag": "Status Up",
@@ -7496,6 +7516,11 @@
         "Tag": "Over Boost",
         "Name": "%d% %tt% 오버 부스트",
         "Desc": "공격력 %minp% 증가%nl%방어력 %v1pc% 증가"
+      },
+      "AegisChainAttackDown": {
+        "Tag": "이지스 체인",
+        "Name": "이지스 체인",
+        "Desc": "공격력 10% 감소"
       },
       "RemoveDebuff": {
         "Tag": "Debuff Removal",
