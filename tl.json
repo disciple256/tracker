@@ -6833,7 +6833,7 @@
     },
     "SkillType": {
       "AttackNormal": {
-        "Tag": "Normal Attack",
+        "Tag": "일반 공격",
         "Name": "%hc% 일반 공격",
         "Desc": "위력 %mrange%%params%"
       },
@@ -6863,67 +6863,67 @@
         "Desc": "대상의 최대 DP의 %minp%의 대미지"
       },
       "FixedHpDamageRate": {
-        "Tag": "HP Ratio DMG",
+        "Tag": "HP 비율 대미지",
         "Name": "%tt% HP 비율 대미지",
         "Desc": "대상의 현재 HP의 %minp%의 HP 대미지 (최대 %v1ls%)"
       },
       "FixedHpDamageRateAttack": {
-        "Tag": "HP Ratio DMG",
+        "Tag": "HP 비율 대미지",
         "Name": "%tt% HP 비율 대미지",
         "Desc": "대상의 최대 HP의 %minp%의 HP 대미지 (최대 %v1ls%)"
       },
       "AttackSkill": {
-        "Tag": "Attack",
+        "Tag": "공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "위력 %mrange% %params%%mul%"
       },
       "DamageRateChangeAttackSkill": {
-        "Tag": "DR Change Attack",
+        "Tag": "다운 턴 변화 공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "위력 %mrange% %params%%nl%%drcc% 공격력 %wmrange% %params%%mul%"
       },
       "PenetrationCriticalAttack": {
-        "Tag": "Penetrating Critical Attack",
+        "Tag": "관통 크리티컬 공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "위력 %mrange% %params%%mul% 적 속성 내성을 무시하고 확정 크리티컬 %weaknessimg% 약점 공격 %nl% 이 스킬로 적 공격 시 %weaknessimg% 약점 배율 %v1dm%%nl%(적의 원래 약점 배율과 비교하여 높은 쪽 우선 적용)"
       },
       "TokenAttack": {
-        "Tag": "Token Attack",
+        "Tag": "토큰 비례 공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "위력 %mrange% %params%%mul% 토큰 1개당 대미지 +%v1pc%"
       },
       "AttackBySp": {
-        "Tag": "SP-based Attack",
+        "Tag": "SP 모두 소비 공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "최대 위력 %mrange% %params%%mul%SP 모두 소비 (행동 중 증가한 SP 제외)%nl%소비 SP에 정비례하여 위력 변동 (SP %v1%일 때 위력 최대)"
       },
       "AttackByOwnDpRate": {
-        "Tag": "DP-based Attack",
+        "Tag": "DP 비례 공격",
         "Name": "%hc% %tt% 공격",
         "Desc": "기본 위력 %mrange% %params%%nl%현재 DP에 따라 위력 선형적으로 변동%nl%・DP 0%일 때 %v1pc% 대미지%nl%・DP 100%일 때 %v1pc% 대미지%nl%・DP 200%일 때 %v2pc% 대미지%mul%"
       },
       "HealSkillUsedCount": {
-        "Tag": "Skill Use Recovery",
+        "Tag": "스킬 사용 횟수 회복",
         "Name": "%tt% 스킬 사용 횟수 회복",
         "Desc": "스킬 사용 횟수 %min% 회복%nl%※ 스킬 사용 횟수 회복 및 사용 횟수 한정 스킬 제외"
       },
       "SkillLimitCountUp": {
-        "Tag": "Skill Use+",
+        "Tag": "스킬 사용 횟수 증가",
         "Name": "%tt% 스킬 사용 횟수 증가",
         "Desc": "스킬 사용 횟수 %min% 증가%nl%※ 사용 횟수 한정 스킬 제외"
       },
       "HealDp": {
-        "Tag": "DP Recovery",
+        "Tag": "DP 회복",
         "Name": "%tt% DP 회복",
         "Desc": "DP %mrange% 회복 %params%%dplim%%mul%"
       },
       "HealEp": {
-        "Tag": "EP Recovery",
+        "Tag": "EP 회복",
         "Name": "%tt% EP 회복",
         "Desc": "EP %mrange% 회복 %%params%%dplim%%mul%"
       },
       "HealDpRate": {
-        "Tag": "DP Recovery",
+        "Tag": "DP 회복",
         "Name": "%tt% DP 회복",
         "Desc": "DP %rangep% 회복 %params%%dplim%%mul%"
       },
@@ -6933,387 +6933,387 @@
         "Desc": "%mrange% 회복 %params%%nl%%v1%턴부터 매 %v1%턴마다 반복"
       },
       "ChargeStep": {
-        "Tag": "Charge",
+        "Tag": "충전",
         "Name": "충전",
         "Desc": "%step%%nl%%cshint%"
       },
       "Turbidity": {
-        "Tag": "Turbidity",
+        "Tag": "혼탁",
         "Name": "%d% %tt% 혼탁",
         "Desc": "단일 공격 시 공격 대상이 무작위 대상으로 변경"
       },
       "ReviveEShield": {
-        "Tag": "EShield Revival",
+        "Tag": "E실드 부활",
         "Name": "%tt% E실드 부활",
         "Desc": "E실드 부활 %nl% E실드 카운트가 %mrange% 미만이면, %mrange%(으)로 변경 %params%%mul%"
       },
       "ReviveDp": {
-        "Tag": "DP Revival",
+        "Tag": "DP 부활",
         "Name": "%tt% DP 부활",
         "Desc": "DP 게이지 부활 %nl% DP %mrange% 회복 %params%%mul%"
       },
       "ReviveDpRate": {
-        "Tag": "DP Revival",
+        "Tag": "DP 부활",
         "Name": "%tt% DP 부활",
         "Desc": "DP 게이지 부활 %nl% DP %rangep% 회복 %params%%mul%"
       },
       "ReviveTerritory": {
-        "Tag": "DP Revival Territory",
+        "Tag": "재생의 진 전개",
         "Name": "재생의 진",
         "Desc": "턴 시작 시 브레이크 상태인 아군이 있으면%nl%아군 전체의 DP 부활 및 DP %rangep% 회복%nl%%span style=info%※ 효과가 발동하면 재생의 진은 소멸%nl%※ 진의 효과는 필드 효과와 공존%nl%※ 진의 효과는 중첩되지 않으며 새로운 효과만 필드에 남음%endspan%"
       },
       "RegenerationDp": {
-        "Tag": "DP Regen",
+        "Tag": "지속 DP 회복",
         "Name": "%d% %tt% 지속 DP 회복",
         "Desc": "매 턴 시작 시 DP %mrange% 회복 %params%%mul%"
       },
       "HealDpByDamage": {
-        "Tag": "DP Recovery",
+        "Tag": "DP 회복",
         "Name": "%tt% DP 회복",
         "Desc": "입힌 대미지의 %minp%의 DP 회복"
       },
       "SelfDamage": {
-        "Tag": "DP Consumption",
+        "Tag": "DP 소비",
         "Name": "%tt% DP 소비",
         "Desc": "%att% 나머지 DP를 %minp% 소비 %params%%mul%"
       },
       "AttackUp": {
-        "Tag": "ATK Up",
+        "Tag": "공격력 증가",
         "Name": "%d% %tt% %el% %at% 스킬 공격력 증가",
         "Desc": "스킬 공격력 %rangep% 증가 %params%"
       },
       "AttackUpPerToken": {
-        "Tag": "Token-based ATK Up",
+        "Tag": "토큰 비례 공격력 증가",
         "Name": "%d% %tt% %el% 스킬 공격력 증가",
         "Desc": "토큰 1개당 스킬 공격력 %rangep% 증가"
       },
       "GiveHealUp": {
-        "Tag": "Recovery Up",
+        "Tag": "회복 효과 증가",
         "Name": "%d% %tt% 회복 효과 증가",
         "Desc": "자신이 부여하는 회복 스킬 효과 %rangep% 증가"
       },
       "HealUp": {
-        "Tag": "Recovery Up",
+        "Tag": "회복 효과 증가",
         "Name": "%d% %tt% 회복량 증가",
         "Desc": "%att% DP 회복량 %rangep% 증가"
       },
       "HealDown": {
-        "Tag": "Recovery Down",
+        "Tag": "회복 효과 감소",
         "Name": "%d% %tt% 회복량 감소",
         "Desc": "%att% DP 회복량 %rangep% 감소 (최소 회복량 1)"
       },
       "GiveAttackBuffUp": {
-        "Tag": "ATK Up Boost",
+        "Tag": "공격력 증가 효과 증가",
         "Name": "%d% %tt% 스킬 공격력 증가 효과 증가",
         "Desc": "자신이 부여하는 스킬 공격력 증가 효과 %rangep% 증가"
       },
       "GiveDefenseDebuffUp": {
-        "Tag": "DEF Down Boost",
+        "Tag": "방어력 감소 효과 증가",
         "Name": "%d% %tt% 방어력 감소 효과 증가",
         "Desc": "자신이 부여하는 방어력 감소 효과 %rangep% 증가"
       },
       "GiveDebuffUp": {
-        "Tag": "Debuff Boost",
+        "Tag": "디버프 효과 증가",
         "Name": "%d% %tt% 디버프 효과 증가",
         "Desc": "자신이 부여하는 디버프 효과 %rangep% 증가"
       },
       "ArrowCherryBlossoms": {
-        "Tag": "Attack Up & Debuff Boost",
+        "Tag": "공격력 및 디버프 효과 증가",
         "Name": "%d% %tt% 벚꽃의 화살",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl%자신이 부여하는 디버프 효과 %v1pc% 증가"
       },
       "Morale": {
-        "Tag": "Morale Boost",
+        "Tag": "사기 레벨 증가",
         "Name": "%d% %tt% 사기",
         "Desc": "사기 레벨 %mrange% 상승 (최대 레벨 10)%nl%사기 레벨 1마다 스킬 공격력 5%pc% 및 모든 능력 5 증가%nl%"
       },
       "FireMark": {
-        "Tag": "Fire Mark",
+        "Tag": "불의 표식",
         "Name": "%d% %tt% 불의 표식",
         "Desc": "초전 시작 시 불 속성 스타일의 수에 따른 레벨의 불의 표식 부여%nl%레벨에 따라 추가 효과 발생%nl%%nl%Lv. 1: 스킬 공격력 %rangep% 증가%nl%Lv. 2: 피격 대미지 10%pc% 감소%nl%Lv. 3: 스킬 공격 시 파괴율 상승량 10%pc% 증가%nl%Lv. 4: 공격 시 크리티컬 확률 30%pc% 증가%nl%Lv. 5: 공격 시 크리티컬 대미지 30%pc% 증가%nl%Lv. 6: 턴 시작 시 전방에 있으면 자신의 SP 1 증가"
       },
       "IceMark": {
-        "Tag": "Ice Mark",
+        "Tag": "얼음의 표식",
         "Name": "%d% %tt% 얼음의 표식",
         "Desc": "초전 시작 시 얼음 속성 스타일의 수에 따른 레벨의 얼음의 표식 부여%nl%레벨에 따라 추가 효과 발생%nl%%nl%Lv. 1: 스킬 공격력 %rangep% 증가%nl%Lv. 2: 피격 대미지 10%pc% 감소%nl%Lv. 3: 스킬 공격 시 파괴율 상승량 10%pc% 증가%nl%Lv. 4: 공격 시 크리티컬 확률 30%pc% 증가%nl%Lv. 5: 공격 시 크리티컬 대미지 30%pc% 증가%nl%Lv. 6: 턴 시작 시 전방에 있으면 자신의 SP 1 증가"
       },
       "ThunderMark": {
-        "Tag": "Thunder Mark",
+        "Tag": "번개의 표식",
         "Name": "%d% %tt% 번개의 표식",
         "Desc": "초전 시작 시 번개 속성 스타일의 수에 따른 레벨의 번개의 표식 부여%nl%레벨에 따라 추가 효과 발생%nl%%nl%Lv. 1: 스킬 공격력 %rangep% 증가%nl%Lv. 2: 피격 대미지 10%pc% 감소%nl%Lv. 3: 스킬 공격 시 파괴율 상승량 10%pc% 증가%nl%Lv. 4: 공격 시 크리티컬 확률 30%pc% 증가%nl%Lv. 5: 공격 시 크리티컬 대미지 30%pc% 증가%nl%Lv. 6: 턴 시작 시 전방에 있으면 자신의 SP 1 증가"
       },
       "LightMark": {
-        "Tag": "Light Mark",
+        "Tag": "빛의 표식",
         "Name": "%d% %tt% 빛의 표식",
         "Desc": "초전 시작 시 빛 속성 스타일의 수에 따른 레벨의 빛의 표식 부여%nl%레벨에 따라 추가 효과 발생%nl%%nl%Lv. 1: 스킬 공격력 %rangep% 증가%nl%Lv. 2: 피격 대미지 10%pc% 감소%nl%Lv. 3: 스킬 공격 시 파괴율 상승량 10%pc% 증가%nl%Lv. 4: 공격 시 크리티컬 확률 30%pc% 증가%nl%Lv. 5: 공격 시 크리티컬 대미지 30%pc% 증가%nl%Lv. 6: 턴 시작 시 전방에 있으면 자신의 SP 1 증가"
       },
       "DarkMark": {
-        "Tag": "Dark Mark",
+        "Tag": "어둠의 표식",
         "Name": "%d% %tt% 어둠의 표식",
         "Desc": "초전 시작 시 어둠 속성 스타일의 수에 따른 레벨의 어둠의 표식 부여%nl%레벨에 따라 추가 효과 발생%nl%%nl%Lv. 1: 스킬 공격력 %rangep% 증가%nl%Lv. 2: 피격 대미지 10%pc% 감소%nl%Lv. 3: 스킬 공격 시 파괴율 상승량 10%pc% 증가%nl%Lv. 4: 공격 시 크리티컬 확률 30%pc% 증가%nl%Lv. 5: 공격 시 크리티컬 대미지 30%pc% 증가%nl%Lv. 6: 턴 시작 시 전방에 있으면 자신의 SP 1 증가"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
+        "Tag": "타마 세션",
         "Name": "%d% %tt% 타마 세션",
         "Desc": "턴 시작 시 브레이크 상태인 아군이 있으면%nl%스킬 %span style=keyword%작렬!! 베이스 솔로%endspan% 발동%nl%[%span style=keyword%작렬!! 베이스 솔로%endspan%: 아군 전체의 DP 부활 및 DP 50% 회복]%nl%%span style=info%※ 타마 세션은 중복 불가%nl%※ 타마 세션은 부여된 다음 턴부터 효과 발동%endspan%"
       },
       "Motivation": {
-        "Tag": "Motivation",
+        "Tag": "컨디션",
         "Name": "%d% %tt% 컨디션",
         "Desc": "%tt%에게 컨디션 레벨 %mlv% 부여%nl%%nl%아군의 액티브 스킬로 DP 회복 시 컨디션 1단계 상승%nl%적에게 대미지를 받으면 컨디션 1단계 하락%nl%컨디션에 따라 모든 능력 증가 또는 감소%nl%・%mlv5% 최고조: 모든 능력 50 상승%nl%・%mlv4% 호조: 모든 능력 25 상승%nl%・%mlv3% 보통: 모든 능력 10 상승%nl%・%mlv2% 저조: 모든 능력 5 감소%nl%・%mlv1% 난조: 모든 능력 10 감소%nl%%nl%%span style=info%※ 임의 컨디션 부여 시 컨디션별 확률: %nl%%mlv1% 1%pc% / %mlv2% 9%pc% / %mlv3% 40%pc% / %mlv4% 35%pc% / %mlv5% 15%pc%%endspan%%nl%%span style=alert%※ 동종 효과 중첩 시, 효과치가 높은 쪽으로 대미지 산출%nl%※ 해제 불가%endspan%"
       },
       "Talisman": {
-        "Tag": "Talisman",
+        "Tag": "부적",
         "Name": "%d% %tt% 부적",
         "Desc": "%passivecond%, 적에게 부적 상태 (레벨 %mrange_alt%) 부여%nl%%nl%부적 레벨 1마다 모든 능력 10 감소 (최대 레벨 10)%nl%부적 상태에서 피격 시 부적 레벨 +1%nl%부적 레벨은 적 행동 종료 시에 초기화%nl%%span style=alert%※ 동종 효과 중첩 시, 효과치가 높은 쪽으로 대미지 산출%nl%※ 해제 및 디버프 무효화 불가%endspan%"
       },
       "AttackUpOnlyNormal": {
-        "Tag": "ATK Up",
+        "Tag": "공격력 증가",
         "Name": "%d% %tt% 일반 공격력 증가",
         "Desc": "일반 공격력 %rangep% 증가 %params%"
       },
       "AttackUpIncludeNormal": {
-        "Tag": "ATK Up",
+        "Tag": "공격력 증가",
         "Name": "%d% %tt% %el% 공격력 증가",
         "Desc": "공격력 %rangep% 증가 %params%"
       },
       "AdditionalElementOnlyNormal": {
-        "Tag": "Normal ATK Enchant",
+        "Tag": "일반 공격 속성 추가",
         "Name": "%d% %tt% %el% 추가",
         "Desc": "일반 공격에 %el% 추가 %params%"
       },
       "CriticalRateUp": {
-        "Tag": "Crit. Rate Up",
+        "Tag": "크리티컬 확률 증가",
         "Name": "%d% %tt% %el% 크리티컬 확률 증가",
         "Desc": "크리티컬 확률 %rangep% 증가 %params%"
       },
       "CriticalDamageUp": {
-        "Tag": "Crit. DMG Up",
+        "Tag": "크리티컬 대미지 증가",
         "Name": "%d% %tt% %el% 크리티컬 대미지 증가",
         "Desc": "크리티컬 대미지 %rangep% 증가 %params%"
       },
       "CriticalRateDown": {
-        "Tag": "Crit. Rate Down",
+        "Tag": "크리티컬 확률 감소",
         "Name": "%d% %tt% %el% 크리티컬 확률 감소",
         "Desc": "크리티컬 확률 %rangep% 감소 %params%"
       },
       "CriticalDamageDown": {
-        "Tag": "Crit. DMG Down",
+        "Tag": "크리티컬 대미지 감소",
         "Name": "%d% %tt% %el% 크리티컬 대미지 감소",
         "Desc": "크리티컬 대미지 %rangep% 감소 %params%"
       },
       "DefenseUp": {
-        "Tag": "DEF Up",
+        "Tag": "방어력 증가",
         "Name": "%d% %tt% %el% 방어력 증가",
         "Desc": "방어력 %rangep% 증가 %params%"
       },
       "DefenseUpPerToken": {
-        "Tag": "Token-based DEF Up",
+        "Tag": "토큰 비례 방어력 증가",
         "Name": "%d% %tt% %el% 방어력 증가",
         "Desc": "토큰 1개당 방어력 %rangep% 증가"
       },
       "AttackDown": {
-        "Tag": "ATK Down",
+        "Tag": "공격력 감소",
         "Name": "%d% %tt% %el% %at% 공격력 감소",
         "Desc": "공격력 %rangep% 감소 %params%"
       },
       "DefenseDown": {
-        "Tag": "DEF Down",
+        "Tag": "방어력 감소",
         "Name": "%d% %tt% %el% %at% %mu% 방어력 감소",
         "Desc": "방어력 %rangep%%mu% 감소 %params%"
       },
       "PowerDownRate": {
-        "Tag": "STR Down",
+        "Tag": "힘 감소",
         "Name": "%d% %tt% %el% 힘 감소",
         "Desc": "힘 %rangep% 감소 %params%"
       },
       "SpiritDownRate": {
-        "Tag": "SPR Down",
+        "Tag": "정신 감소",
         "Name": "%d% %tt% %el% 정신 감소",
         "Desc": "정신 %rangep% 감소 %params%"
       },
       "WisdomDownRate": {
-        "Tag": "WIS Down",
+        "Tag": "지성 감소",
         "Name": "%d% %tt% %el% 지성 감소",
         "Desc": "지성 %rangep% 감소 %params%"
       },
       "Misfortune": {
-        "Tag": "Misfortune",
+        "Tag": "저주",
         "Name": "%d% %tt% 저주",
         "Desc": "%mrange%턴 동안 모든 능력 %dv% 감소 %params%"
       },
       "Hacking": {
-        "Tag": "Hacking",
+        "Tag": "해킹",
         "Name": "%d% %tt% 해킹",
         "Desc": "%d% 동안 모든 능력 %dv% 감소 %params%"
       },
       "CrazyKnockerDebuff": {
-        "Tag": "CrazyKnockerDebuff",
+        "Tag": "용서하지 않겠어얌!",
         "Name": "%d% %tt% 용서하지 않겠어얌!",
         "Desc": "%mrange%턴 동안 모든 능력 %dv% 감소 %params%"
       },
       "BorderRefPDownByAdmiral": {
-        "Tag": "Attack Status Down",
+        "Tag": "공격 스테이터스 감소",
         "Name": "%d% %tt% 공격 스테이터스 감소",
         "Desc": "%d% 동안 공격 스테이터스 %dv% 감소 %params%"
       },
       "BreakDownTurnUp": {
-        "Tag": "Break Down Turn Up",
+        "Tag": "다운 턴 연장",
         "Name": "%tt% 다운 턴 연장",
         "Desc": "다운 턴 %min%턴 연장 %params%"
       },
       "FightingSpirit": {
-        "Tag": "Fighting Spirit",
+        "Tag": "투지",
         "Name": "%d% %tt% 투지",
         "Desc": "%mrange%턴 동안 모든 능력 %dv% 증가 %params%"
       },
       "Provoke": {
-        "Tag": "Provoke",
+        "Tag": "도발",
         "Name": "%tt% 도발",
         "Desc": "다음 %mrange%회 공격 시 부여자만 공격 가능%nl%%params%"
       },
       "RecoilRandom": {
-        "Tag": "Recoil",
+        "Tag": "반동",
         "Name": "%d% %tt% 반동",
         "Desc": "행동 불가%nl%※ 부여 확률: %rangep% %params%%nl%%span style=alert%※ 해제 및 디버프 무효화 불가%endspan%"
       },
       "Restraint": {
-        "Tag": "Restraint",
+        "Tag": "속박",
         "Name": "%d_pow% %tt% 속박",
         "Desc": "대열 교체 불가 %params%"
       },
       "RestraintRandom": {
-        "Tag": "Restraint",
+        "Tag": "속박",
         "Name": "%d% %tt% 속박",
         "Desc": "대열 교체 불가%nl%※ 부여 확률: %rangep% %params%"
       },
       "StunRandom": {
-        "Tag": "Stun",
+        "Tag": "스턴",
         "Name": "%d% %tt% 스턴",
         "Desc": "행동 불가%nl%※ 부여 확률: %rangep% %params%"
       },
       "ConfusionRandom": {
-        "Tag": "Confusion",
+        "Tag": "혼란",
         "Name": "%d% %tt% 혼란",
         "Desc": "일정 확률로 행동 시 자신을 공격%nl%※ 부여 확률: %rangep% %params%"
       },
       "BindRandom": {
-        "Tag": "Bind",
+        "Tag": "바인드",
         "Name": "%d% %tt% 바인드",
         "Desc": "행동 불가%nl%※ 부여 확률: %rangep% %params%"
       },
       "VirusRandom": {
-        "Tag": "Virus",
+        "Tag": "바이러스",
         "Name": "%d% %tt% 바이러스",
         "Desc": "최대 DP %v1pc% 감소%nl%※ 부여 확률: %rangep% %params%"
       },
       "IllusionRandom": {
-        "Tag": "Illusion",
+        "Tag": "현혹",
         "Name": "%d% %tt% 현혹",
         "Desc": "명중률 %v1pc% 감소 %params%%nl%※ 부여 확률: %rangep% %params%"
       },
       "DpBreakRandom": {
-        "Tag": "DP Break",
+        "Tag": "DP 브레이크",
         "Name": "%tt% DP 브레이크",
         "Desc": "%rangep% 확률로 DP 브레이크 %params%"
       },
       "ImprisonRandom": {
-        "Tag": "Imprison",
+        "Tag": "봉인",
         "Name": "%d% %tt% 봉인",
         "Desc": "스킬 사용 불가%nl%※ 부여 확률: %rangep% %params%"
       },
       "HealSpRandom": {
-        "Tag": "Random SP Recovery",
+        "Tag": "확률적 SP 회복",
         "Name": "%tt% SP 회복",
         "Desc": "%rangep% 확률로 SP %v1% 회복 %params%"
       },
       "HealSp": {
-        "Tag": "SP Recovery",
+        "Tag": "SP 회복",
         "Name": "%tt% SP 회복",
         "Desc": "SP %min% 회복 %params%"
       },
       "DamageSp": {
-        "Tag": "SP Drain",
+        "Tag": "SP 차감",
         "Name": "%tt% SP 차감",
         "Desc": "SP %min% 차감"
       },
       "DamageSpRandom": {
-        "Tag": "SP Drain",
+        "Tag": "SP 차감",
         "Name": "%tt% SP 차감",
         "Desc": "SP %mrange% 차감"
       },
       "ReduceSp": {
-        "Tag": "SP Cost Reduction",
+        "Tag": "소비 SP 감소",
         "Name": "%att% 소비 SP 감소",
         "Desc": "소비 SP %min% 감소"
       },
       "SkillRandom": {
-        "Tag": "Random Skill",
+        "Tag": "랜덤 스킬",
         "Name": "랜덤 스킬",
         "Desc": "%rangep% 확률로 [%strval1skill%], %minusrpa% 확률로 [%strval2skill%] %params%"
       },
       "SkillCondition": {
-        "Tag": "Condition Skill",
+        "Tag": "조건부 변화 스킬",
         "Name": "조건부 변화 스킬",
         "Desc": "%cond%, [%strval1skill%] %nl% 아니면 [%strval2skill%]"
       },
       "SkillSwitch": {
-        "Tag": "Switchable Skill",
+        "Tag": "스위치 스킬",
         "Name": "스위치 스킬",
         "Desc": "%rangep% [%strval1skill%], %minusrpa% [%strval2skill%] %params%"
       },
       "ReplaceNormalSkill": {
-        "Tag": "Normal Attack Replaced",
+        "Tag": "일반 공격 변화",
         "Name": "일반 공격 변화",
         "Desc": "자신의 %span style=keyword%일반 공격%endspan%이 %span style=keyword%%skn%%endspan%(으)로 변화"
       },
       "ReplacePursuit": {
-        "Tag": "Follow-up Attack Replaced",
+        "Tag": "추격 변화",
         "Name": "추격 변화",
         "Desc": "자신의 %span style=keyword%추격%endspan%이 %span style=keyword%%skn%%endspan%(으)로 변화%nl%%span style=alert%%nl%※ %span style=keyword%%skn%%endspan%이(가) 장착되어 있어야 변화%nl%※ SP 및 사용 횟수가 부족한 경우 일반 추격%nl%※ 1회 행동 중 1회 한정%endspan%"
       },
       "SpecifySp": {
-        "Tag": "SP Grant",
+        "Tag": "SP 고정",
         "Name": "%tt% SP 고정",
         "Desc": "다음 턴 시작 시%nl%SP가 %min% 미만이면, SP를 %min%(으)로 변경"
       },
       "SpecifySpDamage": {
-        "Tag": "SP Drain",
+        "Tag": "SP 차감",
         "Name": "%tt% SP 고정",
         "Desc": "SP가 %min% 초과이면, SP를 %mrange%(으)로 변경"
       },
       "ContinuousSpDamage": {
-        "Tag": "SP Poison",
+        "Tag": "지속 SP 차감",
         "Name": "%d% %tt% 지속 SP 차감",
         "Desc": "매 턴 SP %mrange% 차감 (최저 SP %v1%) %params%"
       },
       "OverwriteSp": {
-        "Tag": "SP Cost Overwrite",
+        "Tag": "소비 SP 변화",
         "Name": "%d% %att% 소비 SP 변화",
         "Desc": "전용 EX 스킬의 소비 SP가 %mrange%(으)로 변화"
       },
       "Fragile": {
-        "Tag": "Fragile",
+        "Tag": "쇠약",
         "Name": "%d% %tt% 쇠약",
         "Desc": "약점 공격으로 받는 대미지 %rangep% 증가 %params%"
       },
       "BuffCharge": {
-        "Tag": "Charge",
+        "Tag": "충전",
         "Name": "%d% %tt%을(를) 충전",
         "Desc": "스킬 공격으로 인한 대미지 %rangep% 증가 %params%%nl%크리티컬 확률 %v1pc% 증가"
       },
       "Invincible": {
-        "Tag": "Invincible",
+        "Tag": "대미지 무효",
         "Name": "%tt% 대미지 무효",
         "Desc": "적의 행동으로 인해 받은 대미지 %mrange%회 무효화 %params%"
       },
       "BreakGuard": {
-        "Tag": "Break Guard",
+        "Tag": "브레이크 가드",
         "Name": "%d% %tt% 브레이크 가드",
         "Desc": "적의 턴 시작 시 자신의 DP가 %minp% 이상일 때%nl%DP가 0이 되는 대미지를 받아도 DP 1로 버팀"
       },
       "Cover": {
-        "Tag": "Cover",
+        "Tag": "주목",
         "Name": "%tt% 주목",
         "Desc": "%mrange%턴 동안 모든 공격이 부여자에게 집중 (전체 공격 포함)%nl%%params%"
       },
@@ -7323,57 +7323,57 @@
         "Desc": "모든 공격이 부여자에게 집중 (전체 공격 포함)"
       },
       "Charge": {
-        "Tag": "Charge",
+        "Tag": "충전",
         "Name": "%d% %tt%을(를) 충전",
         "Desc": "1턴 동안 충전"
       },
       "Zone": {
-        "Tag": "Zone",
+        "Tag": "필드 전개",
         "Name": "%d% %el% 강화 필드",
         "Desc": "%el% 공격력 %minpc% 증가"
       },
       "BIYamawakiServant": {
-        "Tag": "Servant of Yamawaki",
+        "Tag": "야마와키 님의 부하",
         "Name": "%d% %tt% %at%야마와키 님의 부하",
         "Desc": "스킬 공격 시 약점을 공격한 경우, 부여 대미지 %rangep% 증가 %params%%nl%※ 야마와키 님에게 부여한 경우 명칭이 [야마와키 님 최고!]로 변화"
       },
       "FearOfDevil": {
-        "Tag": "Fear of the Demon King",
+        "Tag": "마왕에 대한 두려움",
         "Name": "%d% %tt% %at%마왕에 대한 두려움",
         "Desc": "%d% 동안 모든 능력 %dv% 감소 %params%%nl%%span style=alert%※ 동종 효과 중첩 시, 효과치가 높은 쪽으로 대미지 산출%endspan%"
       },
       "SpecialCommandCountUp": {
-        "Tag": "Demonic Cavalry Activation",
+        "Tag": "메카 데몬가 기동",
         "Name": "메카 데몬가 기동",
         "Desc": "턴을 진행시키지 않고 %span style=keyword%%skn%%endspan% 발동%nl%원소 속성과 관계없이 E실드 카운트 감소 가능%nl%%span style=alert%※ 이 공격은 아군에게 부여된 버프 효과를 받지 않음%nl%※ 사용 횟수 %min%회 한정%endspan%"
       },
       "RiceFieldZone": {
-        "Tag": "Rice Field",
+        "Tag": "벼 이삭 필드",
         "Name": "%d% 벼 이삭 필드",
         "Desc": "아군 전체의 스킬 공격력 %minpc% 증가%nl%매턴 아군 전체의 DP %v1% 회복"
       },
       "Babied": {
-        "Tag": "ATK Up & OD Up",
+        "Tag": "스킬 공격력 및 OD 게이지 상승량 증가",
         "Name": "%d% %tt% %el% %at%응석",
         "Desc": "스킬 공격력 %rangep% 증가%nl%OD 게이지 상승량 %v1pc% 증가"
       },
       "TokenSet": {
-        "Tag": "Token Up",
+        "Tag": "토큰 상승",
         "Name": "%tt% 토큰 상승",
         "Desc": "토큰 수가 %mrange% 상승 %params%"
       },
       "TokenSetByAttacked": {
-        "Tag": "Token Up",
+        "Tag": "토큰 상승",
         "Name": "%tt% 토큰 상승",
         "Desc": "피격 시 토큰 수가 %mrange% 상승 %params%"
       },
       "TokenSetByAttacking": {
-        "Tag": "Token Up",
+        "Tag": "토큰 상승",
         "Name": "%tt% 토큰 상승",
         "Desc": "공격 시 토큰 수가 %mrange% 상승 %params%"
       },
       "TokenSetByHealedDp": {
-        "Tag": "Token Up",
+        "Tag": "토큰 상승",
         "Name": "%tt% 토큰 상승",
         "Desc": "스킬로 인한 DP 회복 시 토큰 수가 %mrange% 상승 %params%"
       },
@@ -7393,312 +7393,312 @@
         "Desc": "움직임을 [%strval1%]에서 [%strval2%](으)로 변경"
       },
       "RemoveSpecialStatus": {
-        "Tag": "Status Recovery",
+        "Tag": "상태 변화 해제",
         "Name": "상태 변화 해제",
         "Desc": "%att% %sstl% 상태 해제 %params%"
       },
       "RemoveBuff": {
-        "Tag": "Dispel",
+        "Tag": "버프 해제",
         "Name": "%d% %tt% 버프 해제",
         "Desc": "대상에게 부여된 버프 %mrange%개 해제 %params%"
       },
       "AdditionalHitOnRemovingBuff": {
-        "Tag": "After buff removal",
+        "Tag": "적 버프 해제 시",
         "Name": "자신이 적의 버프 해제 시",
         "Desc": ""
       },
       "AdditionalHitOnBreaking": {
-        "Tag": "After Break",
+        "Tag": "적 브레이크 시",
         "Name": "자신의 공격으로 적 브레이크 시",
         "Desc": ""
       },
       "AdditionalHitOnKill": {
-        "Tag": "After Enemy Kill",
+        "Tag": "적 처치 시",
         "Name": "자신의 공격으로 적을 쓰러뜨렸을 때",
         "Desc": ""
       },
       "AdditionalHitOnKillCount": {
-        "Tag": "After Enemy Kill",
+        "Tag": "적 처치 시",
         "Name": "자신의 공격으로 적을 쓰러뜨렸을 때",
         "Desc": ""
       },
       "AdditionalHitOnExtraSkill": {
-        "Tag": "After EX Skill",
+        "Tag": "EX 스킬 사용 시",
         "Name": "자신이 EX 스킬 사용 후",
         "Desc": ""
       },
       "AdditionalHitOnAttacked": {
-        "Tag": "When attacked",
+        "Tag": "피격 시",
         "Name": "적의 공격으로 대미지를 입은 후",
         "Desc": ""
       },
       "AdditionalHitOnHealedSpWithoutSelfHeal": {
-        "Tag": "After SP recovery",
+        "Tag": "아군에 의하여 SP 회복 시",
         "Name": "자신 이외의 아군의 액티브 스킬로 자신의 SP 증가 시",
         "Desc": ""
       },
       "AdditionalHitOnPursuit": {
-        "Tag": "After Follow-up",
+        "Tag": "추격 발생 시",
         "Name": "자신의 추격 발생 시",
         "Desc": ""
       },
       "AdditionalHitOnZone": {
-        "Tag": "After Zone",
+        "Tag": "필드 전개 시",
         "Name": "아군이 필드 전개 시",
         "Desc": ""
       },
       "AdditionalHitOnSpecifiedSkill": {
-        "Tag": "After specific skill",
+        "Tag": "특정 스킬 사용 시",
         "Name": "%span style=keyword%%svsn%%endspan% 사용(발동) 후",
         "Desc": ""
       },
       "AdditionalHitOnOverDrivePointDownSkill": {
-        "Tag": "After OD drain",
+        "Tag": "OD 게이지 소비 시",
         "Name": "자신이 OD 게이지를 소비하는 스킬 사용 시",
         "Desc": ""
       },
       "HealSpOnPreTurn": {
-        "Tag": "Pre-Turn SP Recovery",
+        "Tag": "턴 시작 전 SP 회복",
         "Name": "SP 회복",
         "Desc": "SP %min% 회복 %params%%splim%"
       },
       "GiveDebuffTurnUp": {
-        "Tag": "Debuff Turn Up",
+        "Tag": "디버프 유효 기간 연장",
         "Name": "%d% %tt% 디버프 유효 기간 연장",
         "Desc": "자신이 적에게 부여하는 디버프 효과의 유효 기간 %min%턴 연장"
       },
       "DebuffGuard": {
-        "Tag": "Debuff Guard",
+        "Tag": "디버프 무효화",
         "Name": "%d% %tt% 디버프 무효화",
         "Desc": "다음에 받는 디버프 효과 무효화 %params%%nl%%span style=alert%※ 일부 디버프에는 효과 없음%endspan%"
       },
       "ShadowClone": {
-        "Tag": "Shadow Clone",
+        "Tag": "그림자 분신",
         "Name": "%d% %tt% 그림자 분신",
         "Desc": "스킬 공격력 %rangep% 증가%nl%적의 행동으로 인해 받은 대미지 및 디버프 무효화%nl%※ 적의 공격 무효화 시 횟수 소비"
       },
       "Dodge": {
-        "Tag": "Dodge",
+        "Tag": "회피율 증가",
         "Name": "%d% %tt% 회피율 증가",
         "Desc": "%rangep% 확률로 적의 행동으로 인해 받은 대미지 및 디버프 무효화%nl%%span style=alert%※ 적의 공격 무효화 시 횟수 소비%endspan%"
       },
       "Shredding": {
-        "Tag": "Shredding",
+        "Tag": "속주",
         "Name": "%d% %tt% 속주",
         "Desc": "스킬이 SP 0 이상일 때 사용할 수 있다%nl%%span style=alert%※ [대미지 스킬(SP 모두 소비)] 등, 일부 스킬에는 효과 없음\n※ 소비 SP 이외의 스킬 발동 조건은 변화하지 않음%endspan%"
       },
       "GloomyBuff": {
-        "Tag": "Curse Armor",
+        "Tag": "저주 갑옷",
         "Name": "%d% %tt% 저주 갑옷",
         "Desc": "스킬 %span style=keyword%파멸의 일격%endspan%을 사용할 수 있다%nl%%span style=alert%※ 브레이크 시 해제%endspan%"
       },
       "PrayingEelFormHornBuff": {
-        "Tag": "Over Boost",
+        "Tag": "오버 부스트",
         "Name": "%d% %tt% 오버 부스트",
         "Desc": "공격력 %minp% 증가%nl%방어력 %v1pc% 증가"
       },
       "RemoveDebuff": {
-        "Tag": "Debuff Removal",
+        "Tag": "디버프 해제",
         "Name": "%d% %tt% 디버프 해제",
         "Desc": "대상에게 부여된 디버프%mrange_sp% %mrange_ex%개 해제 %params%"
       },
       "DoubleActionExtraSkill": {
-        "Tag": "2× EX Skill",
+        "Tag": "EX 스킬 연속 발동",
         "Name": "%d% %tt% EX 스킬 연속 발동",
         "Desc": "EX 스킬 발동 시 2회 발동"
       },
       "ZoneUpEternal": {
-        "Tag": "Zone Effect Up",
+        "Tag": "속성 강화 필드 강화",
         "Name": "속성 강화 필드 강화",
         "Desc": "자신이 전개하는 필드 효과가 %rangep% 증가하고%nl%유효 기간이 턴 영구 지속으로 변화"
       },
       "ResistDown": {
-        "Tag": "Resist Down",
+        "Tag": "내성 감소",
         "Name": "%tt% %el% 내성 감소",
         "Desc": "%at%%el% 내성이 %rangep% 감소 %params%"
       },
       "ResistDownGimmick": {
-        "Tag": "Resist Down",
+        "Tag": "내성 감소",
         "Name": "%tt% %el% 내성 감소",
         "Desc": "%at%%el% 내성이 %rangep% 감소 %params%"
       },
       "ResistUp": {
-        "Tag": "Resist Up",
+        "Tag": "내성 증가",
         "Name": "%tt% %el% 내성 증가",
         "Desc": "%at%%el% 내성이 %rangep% 증가 %params%"
       },
       "ResistDownOverwrite": {
-        "Tag": "Resist Down Overwrite",
+        "Tag": "내성 제거",
         "Name": "%d% %tt% %el% 내성 제거",
         "Desc": "%at%%el% 내성을 제거%nl%%span style=info%※ 내성 증가 및 감소 효과보다 우선 적용%endspan%"
       },
       "MemorySpirit": {
-        "Tag": "Status Up",
+        "Tag": "모든 능력 증가",
         "Name": "%d% %tt% %el% %at%모든 능력 증가",
         "Desc": "기억의 정원에서 기억의 복원을 완료한 캐릭터 1명당 %nl%모든 능력 1 증가 (최대 %dv%)"
       },
       "AllStatusUpValue": {
-        "Tag": "Status Up",
+        "Tag": "모든 능력 증가",
         "Name": "%d% %tt% %el% %at%모든 능력 증가",
         "Desc": "모든 능력 %mrange% 증가 %params%"
       },
       "ToughnessUpValue": {
-        "Tag": "VIT Up",
+        "Tag": "체력 증가",
         "Name": "%d% %tt% %el% 체력 증가",
         "Desc": "체력 %mrange% 증가 %params%"
       },
       "ToughnessDownValue": {
-        "Tag": "VIT Down",
+        "Tag": "체력 감소",
         "Name": "%d% %tt% %el% 체력 감소",
         "Desc": "체력 %mrange% 감소 %params%"
       },
       "SpiritDownValue": {
-        "Tag": "SPR Down",
+        "Tag": "정신 감소",
         "Name": "%d% %tt% %el% 정신 감소",
         "Desc": "정신 %mrange% 감소 %params%"
       },
       "Nothing": {
-        "Tag": "No Action",
+        "Tag": "행동 없음",
         "Name": "행동 없음",
         "Desc": "행동 불가"
       },
       "Funnel": {
-        "Tag": "Hit Count Up",
+        "Tag": "연격 수 증가",
         "Name": "%d% %tt% 연격 수 증가",
         "Desc": "다음 스킬 공격 시 %v1pc%의 추가 대미지가 %mrange%Hit 발생 %params%"
       },
       "MindEye": {
-        "Tag": "Mind Eye",
+        "Tag": "심안",
         "Name": "%d% %tt% 심안",
         "Desc": "약점 공격 시 대미지가 %rangep% 증가 %params%"
       },
       "NegativeMind": {
-        "Tag": "Negative Mind",
+        "Tag": "네거티브",
         "Name": "%d% %tt% 네거티브",
         "Desc": "공격력 %rangep% 감소 %params%%nl%피격 대미지 %v1pc% 증가"
       },
       "DamageRateUp": {
-        "Tag": "DR Up",
+        "Tag": "파괴율 상승량 증가",
         "Name": "%d% %tt% 파괴율 상승량 증가",
         "Desc": "스킬 공격 시 파괴율 상승량 %rangep% 증가 %params%"
       },
       "DamageRateResistUp": {
-        "Tag": "DR Resist Up",
+        "Tag": "파괴율 상승 내성 증가",
         "Name": "%d% %tt% 파괴율 상승 내성 증가",
         "Desc": "파괴율 상승 내성 %rangep% 증가 %params%"
       },
       "DamageRateValueDown": {
-        "Tag": "DR Heal",
+        "Tag": "파괴율 회복",
         "Name": "%d% %tt% 파괴율 회복",
         "Desc": "파괴율 %mrange%%pc% 감소 %params%"
       },
       "OverDrivePointUp": {
-        "Tag": "OD Up",
+        "Tag": "OD 게이지 증가",
         "Name": "오버드라이브 게이지 증가",
         "Desc": "오버드라이브 게이지 %rangep% 증가 %params%"
       },
       "OverDrivePointUpRandom": {
-        "Tag": "Random OD Up",
+        "Tag": "확률적 OD 게이지 증가",
         "Name": "확률적 오버드라이브 게이지 증가",
         "Desc": "%rangep% 확률로 오버드라이브 게이지 %v1pc% 증가 %params%"
       },
       "OverDrivePointUpByHit": {
-        "Tag": "Hit-based OD Up",
+        "Tag": "Hit 수 비례 OD 게이지 증가",
         "Name": "%d% %%tt% 오버드라이브 게이지 증가",
         "Desc": "오버드라이브 게이지 %rangep% 증가 %params%%nl% Hit 수가 많을수록 효과 선형적으로 증가"
       },
       "OverDrivePointUpByToken": {
-        "Tag": "Token-based OD Up",
+        "Tag": "토큰 비례 OD 게이지 증가",
         "Name": "%d% %%tt% 오버드라이브 게이지 증가",
         "Desc": "토큰 1개당 오버드라이브 게이지 %rangep% 증가 %params%%nl%토큰 모두 소비"
       },
       "DamageRateUpByHit": {
-        "Tag": "Hit-based DR Up",
+        "Tag": "Hit 수 비례 파괴율 증가",
         "Name": "%d% %%tt% 파괴율 증가",
         "Desc": "파괴율 %rangep% 증가 %params%%nl% Hit 수가 많을수록 상승량 증가"
       },
       "DamageRateUpPerToken": {
-        "Tag": "Token-based DR Up",
+        "Tag": "토큰 비례 파괴율 증가",
         "Name": "%d% %%tt% 파괴율 증가",
         "Desc": "토큰 1개당 파괴율 %rangep% 증가 %params%"
       },
       "AttackUpRangeByHit": {
-        "Tag": "Hit-based ATK Up",
+        "Tag": "Hit 수 비례 공격력 증가",
         "Name": "%d% %%tt% %atk% 스킬 공격력 증가",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl% Hit 수가 적을수록 효과 선형적으로 증가"
       },
       "OverDrivePointDown": {
-        "Tag": "OD Down",
+        "Tag": "OD 게이지 감소",
         "Name": "오버드라이브 게이지 감소",
         "Desc": "오버드라이브 게이지 %rangep% 감소 %params%"
       },
       "AdditionalTurn": {
-        "Tag": "Extra Turn",
+        "Tag": "추가 턴",
         "Name": "%tt% 추가 턴",
         "Desc": "추가 턴 %min%턴 부여"
       },
       "Escape": {
-        "Tag": "Escape",
+        "Tag": "도망친다",
         "Name": "도망친다",
         "Desc": "전투에서 도망친다"
       },
       "Summon": {
-        "Tag": "Summon",
+        "Tag": "소환",
         "Name": "소환",
         "Desc": "%summonlink%을(를) 소환"
       },
       "ContinuousHpDamageRate": {
-        "Tag": "HP Poison",
+        "Tag": "지속 HP 대미지",
         "Name": "%d% %tt% 지속 HP 대미지",
         "Desc": "행동 시작 시 최대 HP의 %rangep%의 대미지를 받음%nl%%params%"
       },
       "ContinuousDpDamageRate": {
-        "Tag": "DP Poison",
+        "Tag": "지속 DP 대미지",
         "Name": "%d% %tt% 지속 DP 대미지",
         "Desc": "행동 시작 시 최대 DP의 %rangep%의 대미지를 받음%nl%%params%"
       },
       "ContinuousDamageRate": {
-        "Tag": "Poison",
+        "Tag": "지속 대미지",
         "Name": "%d% %tt% 지속 대미지",
         "Desc": "행동 시작 시 최대 DP/HP의 %rangep%의 대미지를 받음%nl%%params%"
       },
       "SandStormZone": {
-        "Tag": "Sandstorm Zone",
+        "Tag": "모래 폭풍 필드 전개",
         "Name": "%d% 모래 폭풍 필드",
         "Desc": "매 턴 종료 시 전방 아군이 최대 DP/HP의 %rangep%의 대미지를 받음%nl%%params%"
       },
       "CorrosionDp": {
-        "Tag": "DP Corrosion",
+        "Tag": "DP 부식",
         "Name": "%d% DP 부식",
         "Desc": "피해를 받을 시 DP 브레이크%nl%※ 자신이 스스로 가한 대미지와 지속 대미지 제외"
       },
       "CorrosionDpRandom": {
-        "Tag": "DP Corrosion",
+        "Tag": "DP 부식",
         "Name": "%d% DP 부식",
         "Desc": "피해를 받을 시 DP 브레이크%nl%※ 부여 확률: %rangep% %params%%nl%※ 자신이 스스로 가한 대미지와 지속 대미지 제외"
       },
       "SuperBreak": {
-        "Tag": "Super Break",
+        "Tag": "브레이크(강)",
         "Name": "%d% 브레이크(강)",
         "Desc": "적 브레이크 중 %cond% 브레이크(강) 상태 부여%nl%[브레이크(강): 파괴율 상한치 300%pc% 증가]"
       },
       "SuperBreakDown": {
-        "Tag": "Super Down",
+        "Tag": "다운(초)",
         "Name": "%d% 다운(초)",
         "Desc": "적의 파괴율을 현재의 최대치로 만들고 파괴율 상한 300%pc% 증가%nl%%nl%%span style=alert%※ 이미 다운(초) 중인 적에게는 다운(초) 부여 불가%nl%※ 적 다운 턴이 종료되면 다운(초)은 해제되며%nl%적의 파괴율 상한치도 원래 상한치로 되돌아감%nl%%endspan%%span style=dr%※ 다운(초)이 해제되었을 때 적의 파괴율은 다음으로 변화%nl%[다운(초) 부여 전의 파괴율] + [다운(초) 중에 증가한 파괴율]%nl%(원래의 파괴율 상한 돌파 불가)%endspan%"
       },
       "IgnoreEShieldElement": {
-        "Tag": "Ignore E-SHIELD Element",
+        "Tag": "E실드 속성 무시",
         "Name": "E실드 속성 무시",
         "Desc": "원소 속성과 관계없이 E실드 카운트 감소 가능"
       },
       "EternalOath": {
-        "Tag": "Eternal Oath",
+        "Tag": "영원한 맹세",
         "Name": "%d% %tt% 영원한 맹세",
         "Desc": "크리티컬 확률이 %v2pc%, 스킬 공격력이 %rangep% 증가%nl%피격 대미지가 %v1pc% 감소%nl%%span style=alert%※ 영원한 맹세는 배틀 종료 시 해제%endspan%"
       },
       "StormArmor": {
-        "Tag": "Storm Armor",
+        "Tag": "폭풍 갑옷",
         "Name": "%d% %tt% 폭풍 갑옷",
         "Desc": "방어력 %rangep% 증가%nl%피격 시 토큰 수가 Hit 수만큼 상승%nl%행동 시작 시 토큰이 1개 이상이면 %span style=keyword%Storm Counter%endspan% 발동"
       },
@@ -7708,62 +7708,62 @@
         "Desc": "위력 %mrange% %params%%mul%토큰 1개당 대미지 +%v1pc%%nl%토큰 모두 소비"
       },
       "Diva": {
-        "Tag": "Diva",
+        "Tag": "가희의 가호",
         "Name": "%d% %tt% 가희의 가호",
         "Desc": "공격으로 가한 대미지의 %rangep%의 DP 회복%nl%EX 스킬의 남은 사용 가능 횟수가 0회여도 사용 가능 %span style=alert%(횟수 한정 제외)%endspan%"
       },
       "TakenDamageLimit": {
-        "Tag": "Damage Taken Limit",
+        "Tag": "피격 대미지 상한",
         "Name": "%d% %tt% 피격 대미지 상한",
         "Desc": "%mrange%을(를) 넘는 대미지를 받지 않음"
       },
       "HighBoost": {
-        "Tag": "High Boost",
+        "Tag": "하이 부스트",
         "Name": "%d% %tt% 하이 부스트",
         "Desc": "%span style=alert%소비 SP 2 증가%endspan%%nl%스킬 공격력 %rangep% 증가%params%%nl%공격력 증가 스킬의 효과 20%pc% 증가%nl%디버프 스킬의 효과 20%pc% 증가%nl%회복 스킬의 효과 50%pc% 증가nl%%span style=info%※ SP 소모량 증가 효과는 중복 불가%endspan%"
       },
       "Makeup": {
-        "Tag": "Makeup",
+        "Tag": "메이크업",
         "Name": "%d% %tt% 메이크업",
         "Desc": "턴 시작 시 DP %rangep% 회복 (120%까지 상한 돌파 가능)%nl%DP 브레이크 시 메이크업 해제"
       },
       "SpLimitOverwrite": {
-        "Tag": "SP Limit Overwrite",
+        "Tag": "SP 상한치 변화",
         "Name": "%d% %tt% SP 상한치 변화",
         "Desc": "SP 상한치가 %mrange%(으)로 변화%nl%%span style=info%※ 기본 상한치 20%endspan%"
       },
       "EpLimitOverwrite": {
-        "Tag": "EP Limit Overwrite",
+        "Tag": "EP 상한치 변화",
         "Name": "%d% %tt% EP 상한치 변화",
         "Desc": "EP 상한치가 %mrange%(으)로 변화%nl%%span style=info%※ 기본 상한치 10%endspan%"
       },
       "Fatigue": {
-        "Tag": "Fatigue",
+        "Tag": "권태",
         "Name": "%d% %tt% 권태",
         "Desc": "소비 SP %mrange% 증가"
       },
       "Curry": {
-        "Tag": "Curry",
+        "Tag": "커리",
         "Name": "%d% %tt% 커리",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl%공격으로 가한 대미지의 %v1pc%의 DP 회복"
       },
       "Shchi": {
-        "Tag": "Shchi",
+        "Tag": "시치",
         "Name": "%d% %tt% 시치",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl%공격으로 가한 대미지의 %v1pc%의 DP 회복"
       },
       "Steak": {
-        "Tag": "Steak",
+        "Tag": "스테이크",
         "Name": "%d% %tt% 스테이크",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl%공격으로 가한 대미지의 %v1pc%의 DP 회복"
       },
       "Gelato": {
-        "Tag": "Gelato",
+        "Tag": "젤라또",
         "Name": "%d% %tt% 젤라또",
         "Desc": "스킬 공격력 %rangep% 증가 %params%%nl%공격으로 가한 대미지의 %v1pc%의 DP 회복"
       },
       "Mocktail": {
-        "Tag": "Mocktail",
+        "Tag": "목테일",
         "Name": "%d% %tt% 목테일",
         "Desc": "턴 시작 시 자신에게 부여된 디버프 모두 해제%nl%위 효과로 디버프가 해제되었을 때 최대 DP의 %rangep% DP 회복%nl%%span style=info%※ 목테일 상태는 디버프 해제 시 소멸%nl%※ 해제 불가능한 디버프에는 효과 없음%endspan%"
       }
