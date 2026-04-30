@@ -7118,9 +7118,9 @@
         "Desc": "턴 시작 시 브레이크 상태인 아군이 있으면%nl%스킬 %span style=keyword%작렬!! 베이스 솔로%endspan% 발동%nl%[%span style=keyword%작렬!! 베이스 솔로%endspan%: 아군 전체의 DP 부활 및 DP 50% 회복]%nl%%span style=info%※ 타마 세션은 중복 불가%nl%※ 타마 세션은 부여된 다음 턴부터 효과 발동%endspan%"
       },
       "ByakkoDoubleActionAttackSkill": {
-        "Tag": "Rush",
-        "Name": "Rush",
-        "Desc": "When an attack skill is activated, it triggers again without consuming SP.%nl%*Activates when the corresponding attack skill has 2 or more uses remaining at the start of the action%nl%※ Rush does not stack%nl%※ Normal attacks and follow-up attacks are excluded"
+        "Tag": "러시",
+        "Name": "%d% %tt% 러시",
+        "Desc": "남은 스킬 사용 횟수가 2회 이상인 공격 스킬 발동 시%nl%SP를 소비하지 않고 1회 추가 발동%nl%※ 러시는 중복 불가%nl%※ 일반 공격 및 추격 제외"
       },
       "Motivation": {
         "Tag": "컨디션",
@@ -7133,14 +7133,14 @@
         "Desc": "%passivecond%, 적에게 부적 상태 (레벨 %mrange_alt%) 부여%nl%%nl%부적 레벨 1마다 모든 능력 10 감소 (최대 레벨 10)%nl%부적 상태에서 피격 시 부적 레벨 +1%nl%부적 레벨은 적 행동 종료 시에 초기화%nl%%span style=alert%※ 동종 효과 중첩 시, 효과치가 높은 쪽으로 대미지 산출%nl%※ 해제 및 디버프 무효화 불가%endspan%"
       },
       "Disaster": {
-        "Tag": "Disaster",
-        "Name": "%d% %tt% Disaster",
-        "Desc": "Afflicts targets with %mrange_alt% level%mrange_sp_alt% of Disaster debuff%nl%Each Disaster level decreases enemy stats by 7 (MAX Lv: 10)%nl%%span style=alert%※ Does not stack with similar effects%nl%※ Higher effect value takes priority%nl%※ Cannot be removed%endspan%"
+        "Tag": "재액",
+        "Name": "%d% %tt% 재액",
+        "Desc": "재액 상태가 아닌 적에게 재액 상태 (레벨 %mrange_alt%) 부여%nl%재액 상태인 적의 재액 레벨 2 증가%nl%%nl%재맥 레벨 1마다 모든 능력 7 감소 (최대 레벨 10)%nl%%span style=alert%※ 동종 효과 중첩 시, 효과치가 높은 쪽으로 대미지 산출%nl%※ 해제 및 디버프 무효화 불가%endspan%"
       },
       "Undermine": {
-        "Tag": "Undermine",
-        "Name": "%d% %tt% Undermine",
-        "Desc": "Decreases all stats by %dv% for %mrange% turns %params%"
+        "Tag": "좀먹음",
+        "Name": "%d% %tt% 좀먹음",
+        "Desc": "%mrange%턴 동안 모든 능력 %dv% 감소 %params%"
       },
       "AttackUpOnlyNormal": {
         "Tag": "공격력 증가",
