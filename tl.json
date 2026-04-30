@@ -544,9 +544,14 @@
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "Tama Session",
+        "Desc": "At the start of the turn, if there is an ally in Break state,%nl%the skill [Explosive!! Bass Solo] is activated%nl%[Explosive!! Bass Solo]: Restores all allies' DP and recovers 50% of DP%nl%※ Tama Session does not stack%nl%※ Tama Session takes effect starting from the turn after it is applied"
+      },
+      "ByakkoDoubleActionAttackSkill": {
+        "Tag": "Rush",
+        "Name": "Rush",
+        "Desc": "When an attack skill is activated, it triggers again without consuming SP.%nl%*Activates when the corresponding attack skill has 2 or more uses remaining at the start of the action%nl%※ Rush does not stack%nl%※ Normal attacks and follow-up attacks are excluded"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -2181,6 +2186,11 @@
         "Tag": "タマセッション",
         "Name": "タマセッション",
         "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+      },
+      "ByakkoDoubleActionAttackSkill": {
+        "Tag": "ラッシュ",
+        "Name": "ラッシュ",
+        "Desc": "攻撃スキルを発動したとき SPを消費せずもう一度攻撃スキルが発動する%nl%※行動開始時に該当攻撃スキルのスキル回数が2回以上のとき発動%nl%※ラッシュは重複不可\n※通常攻撃、追撃は対象外"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -3826,9 +3836,14 @@
         "Desc": "战斗开始时，根据友方暗属性角色数量提供暗之印记等级%nl%根据印记等级发动效果%nl%%nl%1级：技能攻击上升%rangep%%nl%2级：受到伤害下降10%pc%%nl%3级：破坏率获取量上升10%pc%%nl%4级：暴击率上升30%pc%%nl%5级：暴击伤害上升30%pc%%nl%6级：回合开始时，若处于前锋，SP+1"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "Tama Session",
+        "Desc": "At the start of the turn, if there is an ally in Break state,%nl%the skill [Explosive!! Bass Solo] is activated%nl%[Explosive!! Bass Solo]: Restores all allies' DP and recovers 50% of DP%nl%※ Tama Session does not stack%nl%※ Tama Session takes effect starting from the turn after it is applied"
+      },
+      "ByakkoDoubleActionAttackSkill": {
+        "Tag": "Rush",
+        "Name": "Rush",
+        "Desc": "When an attack skill is activated, it triggers again without consuming SP.%nl%*Activates when the corresponding attack skill has 2 or more uses remaining at the start of the action%nl%※ Rush does not stack%nl%※ Normal attacks and follow-up attacks are excluded"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -5458,9 +5473,14 @@
         "Desc": "Grants Dark Mark levels based on the number of Dark styles at the start of battle%nl%Additional effects are activated based on the level%nl%%nl%Lv.1: Increases skill damage dealt by %rangep%%nl%Lv.2: Reduces damage taken by 10%pc%%nl%Lv.3: Boosts devastation rate increase by 10%pc%%nl%Lv.4: Increases critical rate by 30%pc%%nl%Lv.5: Increases critical damage by 30%pc%%nl%Lv.6: At start of turn, recovers 1 extra SP in frontline"
       },
       "ExecuteSkillOnPreTurn": {
-        "Tag": "タマセッション",
-        "Name": "タマセッション",
-        "Desc": "ターン開始時にブレイク状態の味方がいるとき%nl%スキル【炸裂！！ベース・ソロ】が発動する%nl%【炸裂！！ベース・ソロ：味方全体のDPを復活し DPを50%回復する】%nl%※タマセッションは重複不可%nl%※タマセッションは付与された次のターンから効果が発動する"
+        "Tag": "Tama Session",
+        "Name": "Tama Session",
+        "Desc": "At the start of the turn, if there is an ally in Break state,%nl%the skill [Explosive!! Bass Solo] is activated%nl%[Explosive!! Bass Solo]: Restores all allies' DP and recovers 50% of DP%nl%※ Tama Session does not stack%nl%※ Tama Session takes effect starting from the turn after it is applied"
+      },
+      "ByakkoDoubleActionAttackSkill": {
+        "Tag": "Rush",
+        "Name": "Rush",
+        "Desc": "When an attack skill is activated, it triggers again without consuming SP.%nl%*Activates when the corresponding attack skill has 2 or more uses remaining at the start of the action%nl%※ Rush does not stack%nl%※ Normal attacks and follow-up attacks are excluded"
       },
       "Motivation": {
         "Tag": "Motivation",
@@ -7096,6 +7116,11 @@
         "Tag": "타마 세션",
         "Name": "%d% %tt% 타마 세션",
         "Desc": "턴 시작 시 브레이크 상태인 아군이 있으면%nl%스킬 %span style=keyword%작렬!! 베이스 솔로%endspan% 발동%nl%[%span style=keyword%작렬!! 베이스 솔로%endspan%: 아군 전체의 DP 부활 및 DP 50% 회복]%nl%%span style=info%※ 타마 세션은 중복 불가%nl%※ 타마 세션은 부여된 다음 턴부터 효과 발동%endspan%"
+      },
+      "ByakkoDoubleActionAttackSkill": {
+        "Tag": "Rush",
+        "Name": "Rush",
+        "Desc": "When an attack skill is activated, it triggers again without consuming SP.%nl%*Activates when the corresponding attack skill has 2 or more uses remaining at the start of the action%nl%※ Rush does not stack%nl%※ Normal attacks and follow-up attacks are excluded"
       },
       "Motivation": {
         "Tag": "컨디션",
